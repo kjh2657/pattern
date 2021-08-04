@@ -11,17 +11,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        TSystem tSystem = new ToyAdapter(new RSystemImpl());
-        tSystem.offBuy();
-
-        tSystem.logitics("swon");
-        tSystem.show();
-
-        try {
-            tSystem.onBuy();
-        } catch (UnsupportedOperationException e){
-            System.out.println("Not Supported");
-        }
     }
 }
 
