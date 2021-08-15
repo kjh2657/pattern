@@ -7,10 +7,15 @@ import com.aroo.design.singleton.Aroo;
 import com.aroo.design.singleton.Atti;
 import com.aroo.design.singleton.Toy;
 
+import java.util.Optional;
+
 public class Main {
 
     public static void main(String[] args) {
 
+        String a = null;
+        Optional<String> b = Optional.of(a);
+        System.out.println(b.toString());
     }
 }
 
